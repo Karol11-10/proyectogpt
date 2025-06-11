@@ -115,7 +115,7 @@ nav a.active {
   color: black;
 }
 .fondo-servicios {
-  background-image: url("imagenes/fondo_servicios.jpg");
+  background-image: url(/imagenes/fondo_servicios.jpg);
   background-size: cover;
   background-position: center;
   padding: 50px 20px;
@@ -179,4 +179,52 @@ iframe {
 
 .redes-sociales a img:hover {
   transform: scale(1.1);
+}
+.titulo-horarios {
+  text-align: center;
+  margin-top: 40px;
+  color: #333;
+  font-size: 24px;
+}
+
+.contenedor-tabla {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.tabla-horarios {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  border: 2px solid #87CEEB;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tabla-horarios th, .tabla-horarios td {
+  border: 1px solid #87CEEB;
+  padding: 12px;
+  text-align: center;
+  color: #333;
+  font-size: 1em;
+}
+
+.tabla-horarios th {
+  background-color: #87CEEB;
+  color: white;
+}
+.titulo-blanco {
+  color: white;
+  text-shadow: 1px 1px 4px #00000088; /* le da contraste sobre fondo claro u oscuro */
+}
+.servicios_caja {
+  /* tus estilos existentes */
+  color: white;
+  /* si el fondo también es claro, añade sombra */
+  text-shadow: 1px 1px 3px #00000088;
+}
+.titulo-negrita {
+  font-weight: bold;
 }

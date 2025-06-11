@@ -5,21 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Servicios - Manitas Creativas</title>
   <link rel="stylesheet" href="estilos.css">
+  <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons (opcional para redes sociales) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="nosotros.html">Nosotros</a></li>
-        <li><a href="servicios.html" class="active">Servicios</a></li>
-        <li><a href="contacto.html">Contáctanos</a></li>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Manitas Creativas</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="nosotros.html">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servicios.html">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contáctanos</a>
+        </li>
       </ul>
-    </nav>
-  </header>
+    </div>
+  </div>
+</nav>
 
   <section id="servicios" class="fondo-servicios">
-    <h1>Nuestros Servicios</h1>
+    <h2 class="titulo-blanco">Nuestros Servicios</h2>
     <div class="servicio-caja">
       <h3>Estimulación Temprana</h3>
       <p>Actividades diseñadas para potenciar el desarrollo de habilidades cognitivas y sensoriales desde los primeros meses.</p>
@@ -44,6 +63,29 @@
       <h3>Educación Inicial Personalizada</h3>
       <p>Plan educativo adaptado a la edad y ritmo de aprendizaje de cada niño para garantizar su progreso.</p>
     </div>
+    <h2 class="titulo-horarios titulo-blanco">Horarios de Atención</h2>
+<div class="contenedor-tabla">
+  <table class="tabla-horarios">
+    <tr>
+      <th>Día</th>
+      <th>Horario</th>
+    </tr>
+    <tr>
+      <td>Lunes a Viernes</td>
+      <td>8:00 AM – 6:00 PM</td>
+    </tr>
+    <tr>
+      <td>Sábado</td>
+      <td>9:00 AM – 12:00 PM</td>
+    </tr>
+    <tr>
+      <td>Domingo</td>
+      <td>Cerrado</td>
+    </tr>
+  </table>
+</div>
   </section>
+  <!-- Bootstrap Bundle JS (necesario para funcionalidad de menú responsive) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
