@@ -263,6 +263,32 @@ iframe {
   max-width: 800px;
   line-height: 1.6;
 }
+/* Centrar y estilizar la sección de nosotros */
+.seccion-centrada {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #cdeffc; /* celeste suave */
+  color: #000; /* letras negras */
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.titulo-negrita {
+  font-weight: bold;
+  font-size: 24px;
+  color: #007BFF; /* celeste fuerte */
+  margin-top: 20px;
+}
+
+.info-nosotros {
+  font-size: 18px;
+  margin: 10px auto;
+  max-width: 800px;
+  line-height: 1.6;
+}
 
 .lista-valores {
   list-style: none;
@@ -279,6 +305,8 @@ iframe {
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
+
 .testimonios-fondo {
   background-color: #89d8f5;
   padding: 60px 20px;
