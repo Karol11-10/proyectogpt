@@ -228,3 +228,12 @@ iframe {
 .titulo-negrita {
   font-weight: bold;
 }
+.carousel-item p {
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  border: 3px solid #EAECF0;
+}
